@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+
+  <h2>Tech Fest 2025 - Registration Form</h2>
+
+  <form action="/submit" method="post">
+
+  
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    
+    <label for="department">Department:</label><br>
+    <select id="department" name="department" required>
+      <option value="">--Select--</option>
+      <option value="cse">Computer Science</option>
+      <option value="ece">Electronics</option>
+      <option value="mech">Mechanical</option>
+      <option value="civil">Civil</option>
+    </select><br><br>
+
+    
+    <label>Year:</label><br>
+    <input type="radio" id="1st" name="year" value="1st" required>
+    <label for="1st">1st Year</label><br>
+
+    <input type="radio" id="2nd" name="year" value="2nd">
+    <label for="2nd">2nd Year</label><br>
+
+    <input type="radio" id="3rd" name="year" value="3rd">
+    <label for="3rd">3rd Year</label><br>
+
+    <input type="radio" id="4th" name="year" value="4th">
+    <label for="4th">4th Year</label><br><br>
+
+   
+    <label>Select Events You Want to Participate In:</label><br>
+    <input type="checkbox" id="coding" name="events" value="Coding">
+    <label for="coding">Coding</label><br>
+
+    <input type="checkbox" id="quiz" name="events" value="Quiz">
+    <label for="quiz">Tech Quiz</label><br>
+
+    <input type="checkbox" id="robotics" name="events" value="Robotics">
+    <label for="robotics">Robotics</label><br>
+
+    <input type="checkbox" id="design" name="events" value="Design">
+    <label for="design">UI/UX Design</label><br><br>
+
+    <label for="notes">Any Comments or Suggestions:</label><br>
+    <textarea id="notes" name="notes" rows="4" cols="40" placeholder="Write here..."></textarea><br><br>
+
+    
+    <button type="submit">Submit Registration</button>
+
+  </form>
+
+
+
+</body>
+</html>
